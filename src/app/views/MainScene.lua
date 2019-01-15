@@ -17,7 +17,6 @@ function MainScene:onCreate()
 
     Camp_SetHostile("player.bullet", "enemy.bullet", true)
     Camp_SetHostile("enemy.bullet", "player.bullet", true)
-    -- Camp_SetHostile("enemy.bullet", "enemy.bullet", true)
 
     self.map = Map.new(self);
 
