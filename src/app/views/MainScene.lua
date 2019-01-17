@@ -59,7 +59,7 @@ function MainScene:ProcessInput()
             elseif keyCode == 133 then 
                 self.tank:Fire();
             elseif keyCode == 134 then 
-                self.factory:SpawnRandom();
+                self.factory:SpawnRandom(); 
             end
         end 
     end,cc.Handler.EVENT_KEYBOARD_PRESSED)
